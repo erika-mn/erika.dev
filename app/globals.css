@@ -9,12 +9,12 @@
 }
 
 body {
-  background: #fff4de;
+  background: #1a1a1a;
   padding: 3rem;
 }
 
 h1,
 p,
 li {
-  color: #394272;
+  color: #fff4de;
 }

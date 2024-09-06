@@ -6,7 +6,7 @@ import Hooli from './companies/Hooli';
 import ICPEP from './companies/ICPEP';
 
 const WorkingExp = () => {
-  const [company, setCompany] = useState<string>('Wizlex');
+  const [isCompany, setCompany] = useState<string>('Wizlex');
 
   const renderDesc = (com: string) => {
     switch (com) {
@@ -31,35 +31,39 @@ const WorkingExp = () => {
         <div className='mt-[5rem] flex'>
           <div className='w-[15rem]'>
             <div
-              className='flex items-center cursor-pointer gap-2'
+              className={`flex items-center cursor-pointer gap-2 hover:bg-gray-200 ${
+                isCompany === 'Wizlex'
+                  ? 'text-[#FFF4DE]'
+                  : 'text-blue-200 bg-gray-200'
+              }`}
               onClick={() => setCompany('Wizlex')}
             >
               <div className='h-[2.5rem] w-0.5 bg-primary mr-3' />
               Wizlex
             </div>
             <div
-              className='flex items-center cursor-pointer gap-2'
+              className='flex items-center cursor-pointer gap-2 text-[#FFF4DE]'
               onClick={() => setCompany('BCS')}
             >
-              <div className='h-[2.5rem] w-0.5 bg-primary mr-3' />
+              <div className='h-[2.5rem] w-0.5 bg-primary mr-3 text-[#FFF4DE]' />
               BCS Technology
             </div>
             <div
-              className='flex items-center cursor-pointer gap-2'
+              className='flex items-center cursor-pointer gap-2 text-[#FFF4DE]'
               onClick={() => setCompany('Hooli')}
             >
-              <div className='h-[2.5rem] w-0.5 bg-primary mr-3' />
+              <div className='h-[2.5rem] w-0.5 bg-primary mr-3 text-[#FFF4DE]' />
               Hooli Software
             </div>
             <div
-              className='flex items-center cursor-pointer gap-2'
+              className='flex items-center cursor-pointer gap-2 text-[#FFF4DE]'
               onClick={() => setCompany('ICPEP')}
             >
-              <div className='h-[2.5rem] w-0.5 bg-primary mr-3' />
+              <div className='h-[2.5rem] w-0.5 bg-primary mr-3 text-[#FFF4DE]' />
               ICPEP-Singapore
             </div>
           </div>
-          <div>{renderDesc(company)}</div>
+          <div>{renderDesc(isCompany)}</div>
         </div>
       </div>
     </div>

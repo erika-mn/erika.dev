@@ -4,19 +4,20 @@ import Button from '../components/Button';
 const LandingPage = () => {
   return (
     <div>
-      <div className='mt-[12rem] 2xl:ml-[25rem] md:ml-[10rem] sm:ml-[2rem] h-[74.5vh]'>
+      <div className='mt-[12rem] h-[74.5vh] text-center'>
         <div>
-          <p className='font-mono text-xl'>
+          <p className='font-mono text-xl mb-2'>
             Hey there, I am{' '}
             <span className='underline underline-offset-3 decoration-wavy decoration-[#F24822]'>
               Erika Monjardin
             </span>
+            ,
           </p>
           <h1 className='font-sans text-7xl font-bold'>Software Engineer</h1>
-          <h1 className='font-sans text-7xl italic'>
+          <h1 className='font-sans text-7xl italic mt-4'>
             that crafts seamless websites.
           </h1>
-          <p className='font-mono pt-4 pb-8'>
+          <p className='font-mono pt-7 pb-9'>
             I enjoy building smooth, user-friendly web applications, developing
             <br />
             (and sometimes designing) awesome digital experiences using

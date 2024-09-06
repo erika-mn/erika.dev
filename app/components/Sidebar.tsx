@@ -11,18 +11,28 @@ const Sidebar = () => {
               <Image
                 src='/assets/github-icon.png'
                 alt='linkedin'
-                width={40}
-                height={40}
+                width={35}
+                height={35}
               />
             </a>
           </li>
-          <li className='cursor-pointer w-[2.5rem]'>
+          <li className='mb-6 cursor-pointer w-[2.5rem]'>
             <a
               href='https://www.linkedin.com/in/erika-joy-monjardin-694892209/'
               target='_blank'
             >
               <Image
                 src='/assets/linkedin-icon.png'
+                alt='linkedin'
+                width={35}
+                height={35}
+              />
+            </a>
+          </li>
+          <li className='cursor-pointer w-[2.5rem]'>
+            <a href='https://discord.gg/bjjFuu3J' target='_blank'>
+              <Image
+                src='/assets/discord-icon.png'
                 alt='linkedin'
                 width={35}
                 height={35}
