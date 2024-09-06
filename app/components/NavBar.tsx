@@ -14,7 +14,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <a href=''>
+        <a href='' className='-ml-10'>
           {' '}
           <Button btnName='Resume' />
         </a>

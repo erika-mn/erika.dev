@@ -22,7 +22,7 @@ const WorkingExp = () => {
   };
 
   return (
-    <div className='flex justify-center min-h-[79vh] font-mono'>
+    <div className='flex justify-center min-h-[79vh] font-mono mt-10'>
       <div>
         <div className='flex items-center gap-5 mt-[4rem]'>
           <h1 className='text-5xl font-bold'>Where I&apos;ve Worked</h1>
