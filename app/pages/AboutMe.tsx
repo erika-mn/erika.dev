@@ -8,7 +8,9 @@ const AboutMe = () => {
         <h1>ABOUT ME</h1>
         <hr className='w-[30rem] my-3' />
         <h1 className='text-6xl my-3'>
-          <span className='text-6xl font-extrabold'>2+ years experience </span>
+          <span className='text-6xl font-extrabold text-secondary'>
+            2+ years experience{' '}
+          </span>
           as a<br /> software engineer.
         </h1>
         <div className='flex gap-10 mt-10'>
@@ -16,7 +18,7 @@ const AboutMe = () => {
             My interest in software development began in ninth grade when I
             started blogging on{' '}
             <span className='text-secondary'>WordPress</span>. Since then, I
-            have pursued web development and interned at
+            have pursued web development and interned at{' '}
             <span className='text-secondary'>ICPeP-Singapore</span>, where I
             learned the basics of{' '}
             <span className='text-secondary'>cloud computing</span>. Eventually,

@@ -17,7 +17,7 @@ const config: Config = {
     colors: {
       primary: '#FFF4DE',
       secondary: '#64FFDA',
-      tertiary: '#38BDF8',
+      tertiary: '#FF6D00',
     },
   },
   plugins: [],

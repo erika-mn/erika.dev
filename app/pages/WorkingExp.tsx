@@ -22,12 +22,17 @@ const WorkingExp = () => {
   };
 
   return (
-    <div className='flex justify-center min-h-[79vh] font-mono mt-[4rem]'>
+    <div className='flex justify-center min-h-[79vh] font-mono mt-[12rem] text-primary'>
       <div>
-        <div className='flex items-center gap-5 mt-[4rem]'>
-          <h1 className='text-5xl font-bold'>Where I&apos;ve Worked</h1>
-          <div className='w-[15rem] h-0.5 bg-primary' />
-        </div>
+        <h1>WHERE I&apos;VE WORKED</h1>
+        <hr className='w-[30rem] my-3' />
+        <h1 className='text-5xl my-3'>
+          Experienced in startups and <br /> large companies, working <br />
+          <span className='font-bold text-tertiary'>
+            independently
+          </span> and <br />
+          <span className='font-bold text-tertiary'>in teams</span>.
+        </h1>
         <div className='mt-[5rem] flex'>
           <div className='w-[15rem]'>
             <div
