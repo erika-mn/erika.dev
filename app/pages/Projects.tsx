@@ -3,11 +3,16 @@ import Image from 'next/image';
 
 const Projects = () => {
   return (
-    <div className='2xl:ml-[25rem] md:ml-[10rem] sm:ml-[2rem] h-[74.5vh] font-mono mt-[10rem]'>
-      <div className='flex items-center gap-5'>
-        <h1 className='text-5xl font-bold'>Projects</h1>
-        <div className='w-[15rem] h-0.5 bg-primary' />
-      </div>
+    <div
+      className='2xl:ml-[25rem] md:ml-[10rem] sm:ml-[2rem] h-[74.5vh] font-mono pt-[9rem]'
+      id='projects'
+    >
+      <h1>PROJECTS</h1>
+      <hr className='w-[30rem] my-3 text-primary' />
+      <h1 className='text-6xl'>
+        Projects that I <br /> have previously{' '}
+        <span className='text-[#FFD54F] font-bold'>worked</span> on:
+      </h1>
       <div className='mt-[5rem] relative flex'>
         <Image
           src='/assets/cuisina.png'

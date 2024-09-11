@@ -75,34 +75,34 @@ export const wizlex = [
 export const bcsTech = [
   {
     key: 1,
-    desc: 'Manages the upkeep of two projects simultaneously as a solo developer, addressing bugs, implementing new features, and professionally deploying updates across different environments using Azure.',
+    desc: 'Manages two projects solo, handling bugs, new features, and updates across environments using Azure.',
   },
   {
     key: 2,
-    desc: 'Collaborating closely with clients to understand and meet their expectations, while delivering tailored software solutions with precision and professionalism.',
+    desc: 'Works closely with clients to meet their expectations and deliver precise, professional software solutions.',
   },
   {
     key: 3,
-    desc: 'Ensures code is refactored to align with project requirements, remains updated with React.js standards, and optimizes page functionality to seamlessly handle data requests.',
+    desc: 'Refactors code to meet project needs, stays updated with React.js standards, and optimizes page functionality for smooth data handling.',
   },
 ];
 
 export const hooli = [
   {
     key: 1,
-    desc: 'Contributed to the development and maintenance of three projects, actively participated in developing new features, and proactively addressed critical bugs. Utilized React JS as the front-end framework and Go as the backend language.',
+    desc: 'Developed and maintained three projects, adding features and resolving critical bugs with React JS and Go.',
   },
   {
     key: 2,
-    desc: 'One of the pioneering developers of a project, meticulously crafted its foundation while embracing Software Design Principles.',
+    desc: 'Pioneered a project, building its foundation with strong Software Design Principles.',
   },
   {
     key: 3,
-    desc: 'Successfully refactored code to optimize API calls, resulting in a notable improvement in page loading time.',
+    desc: 'Refactored code to optimize API calls, significantly improving page load time.',
   },
   {
     key: 4,
-    desc: 'Closely collaborated with cross-functional teams, namely the design and product team, and mentored software developer interns to achieve improvement in team productivity.',
+    desc: 'Collaborated with design and product teams, mentoring developer interns to boost team productivity.',
   },
 ];
 

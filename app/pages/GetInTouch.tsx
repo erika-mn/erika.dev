@@ -4,7 +4,10 @@ import Footer from '../components/Footer';
 
 const GetInTouch = () => {
   return (
-    <div className='mt-[25rem] flex flex-col items-center justify-center text-center font-mono min-h-[35vh]'>
+    <div
+      className='mt-[45rem] flex flex-col items-center justify-center text-center font-mono min-h-[35vh]'
+      id='contact'
+    >
       <h1 className='text-5xl font-bold'>Get In Touch!</h1>
       <p className='my-5'>
         Got a tech challenge, project idea, or just want to talk code? <br />{' '}

@@ -22,7 +22,10 @@ const WorkingExp = () => {
   };
 
   return (
-    <div className='flex justify-center min-h-[79vh] font-mono mt-[12rem] text-primary'>
+    <div
+      className='flex justify-center min-h-[79vh] font-mono pt-[12rem] text-primary'
+      id='experience'
+    >
       <div>
         <h1>WHERE I&apos;VE WORKED</h1>
         <hr className='w-[30rem] my-3' />
