@@ -4,8 +4,8 @@ import { wizlex } from '@/app/assets/Assets';
 const Wizlex = () => {
   return (
     <div>
-      <h1 className='text-2xl font-bold'>
-        Web Developer{' '}
+      <h1 className='text-2xl'>
+        <span className='text-tertiary font-bold'>Web Developer </span>
         <span className='underline underline-offset-3 decoration-wavy decoration-[#F24822]'>
           @Wizlex
         </span>

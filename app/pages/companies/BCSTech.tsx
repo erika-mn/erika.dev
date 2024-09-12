@@ -4,8 +4,8 @@ import { bcsTech } from '@/app/assets/Assets';
 const BcsTech = () => {
   return (
     <div>
-      <h1 className='text-2xl font-bold'>
-        React Developer{' '}
+      <h1 className='text-2xl'>
+        <span className='text-tertiary font-bold'>React Developer </span>
         <span className='underline underline-offset-3 decoration-wavy decoration-[#F24822]'>
           @BCS Technology
         </span>

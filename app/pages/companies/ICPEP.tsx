@@ -4,8 +4,8 @@ import React from 'react';
 const ICPEP = () => {
   return (
     <div>
-      <h1 className='text-2xl font-bold'>
-        Cloud Engineer Intern{' '}
+      <h1 className='text-2xl'>
+        <span className='text-tertiary font-bold'> Cloud Engineer Intern </span>
         <span className='underline underline-offset-3 decoration-wavy decoration-[#F24822]'>
           @ICPEP-Singapore
         </span>

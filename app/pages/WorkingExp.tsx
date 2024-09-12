@@ -39,63 +39,43 @@ const WorkingExp = () => {
         <div className='mt-[5rem] flex'>
           <div className='w-[15rem]'>
             <div
-              className={`flex items-center cursor-pointer gap-2 text-primary hover:bg-primary hover:bg-opacity-15 w-[10rem] ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
                 isCompany === 'Wizlex'
-                  ? 'text-tertiary bg-opacity-15 bg-primary'
-                  : 'text-primary'
+                  ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
               }`}
               onClick={() => setCompany('Wizlex')}
             >
-              <div
-                className={`h-[2.5rem] w-0.5 bg-primary mr-3 ${
-                  isCompany === 'Wizlex' ? 'bg-primary' : ' bg-opacity-15'
-                }`}
-              />
               Wizlex
             </div>
             <div
-              className={`flex items-center cursor-pointer gap-2 text-primary hover:bg-primary hover:bg-opacity-15 w-[10rem] ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
                 isCompany === 'BCS'
-                  ? 'text-tertiary bg-opacity-15 bg-primary'
-                  : 'text-primary'
+                  ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
               }`}
               onClick={() => setCompany('BCS')}
             >
-              <div
-                className={`h-[2.5rem] w-0.5 bg-primary mr-3 ${
-                  isCompany === 'BCS' ? 'bg-primary' : ' bg-opacity-15'
-                }`}
-              />
               BCS Technology
             </div>
             <div
-              className={`flex items-center cursor-pointer gap-2 text-primary hover:bg-primary hover:bg-opacity-15 w-[10rem] ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
                 isCompany === 'Hooli'
-                  ? 'text-tertiary bg-opacity-15 bg-primary'
-                  : 'text-primary'
+                  ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
               }`}
               onClick={() => setCompany('Hooli')}
             >
-              <div
-                className={`h-[2.5rem] w-0.5 bg-primary mr-3 ${
-                  isCompany === 'Hooli' ? 'bg-primary' : ' bg-opacity-15'
-                }`}
-              />{' '}
               Hooli Software
             </div>
             <div
-              className={`flex items-center cursor-pointer gap-2 text-primary hover:bg-primary hover:bg-opacity-15 w-[10rem] ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
                 isCompany === 'ICPEP'
-                  ? 'text-tertiary bg-opacity-15 bg-primary'
-                  : 'text-primary'
+                  ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
               }`}
               onClick={() => setCompany('ICPEP')}
             >
-              <div
-                className={`h-[2.5rem] w-0.5 bg-primary mr-3 ${
-                  isCompany === 'ICPEP' ? 'bg-primary' : ' bg-opacity-15'
-                }`}
-              />{' '}
               ICPEP-Singapore
             </div>
           </div>

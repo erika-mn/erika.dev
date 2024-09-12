@@ -8,7 +8,9 @@ const GetInTouch = () => {
       className='mt-[45rem] flex flex-col items-center justify-center text-center font-mono min-h-[35vh]'
       id='contact'
     >
-      <h1 className='text-5xl font-bold'>Get In Touch!</h1>
+      <h1 className='text-5xl font-bold'>
+        Get <span className='text-[#24C9EE] font-bold'>In Touch</span>!
+      </h1>
       <p className='my-5'>
         Got a tech challenge, project idea, or just want to talk code? <br />{' '}
         I&rsquo;m all ears! Let&rsquo;s connect and build something great.

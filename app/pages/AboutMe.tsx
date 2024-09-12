@@ -55,7 +55,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div>
-          <h1 className='text-3xl my-3 mt-10 font-bold'>My Digital Arsenal:</h1>
+          <h1 className='text-3xl my-3 mt-10'>
+            &#123; My Digital Arsenal &#125;
+          </h1>
           <div className='flex gap-5 mt-10 justify-center'>
             <div className='border-2 rounded-md py-2 px-4 w-[10rem] text-center'>
               <h1>FRONTEND</h1>
