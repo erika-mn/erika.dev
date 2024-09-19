@@ -28,8 +28,11 @@ const NavBar: React.FC<RefProps> = ({ refs }) => {
             </li>
           ))}
         </ul>
-        <a href='' className='-ml-10'>
-          {' '}
+        <a
+          href='/public/files/Monjardin_Erika_ Joy_Resume.pdf'
+          download='Monjardin_Erika_ Joy_Resume.pdf'
+          className='-ml-10'
+        >
           <Button btnName='Resume' />
         </a>
       </div>

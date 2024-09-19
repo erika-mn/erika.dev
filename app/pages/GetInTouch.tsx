@@ -15,7 +15,9 @@ const GetInTouch = () => {
         Got a tech challenge, project idea, or just want to talk code? <br />{' '}
         I&rsquo;m all ears! Let&rsquo;s connect and build something great.
       </p>
-      <Button btnName='Say Hello' />
+      <a href='mailto:erika.monjardin@gmail.com'>
+        <Button btnName='Say Hello' />
+      </a>
       {/* <Footer /> */}
     </div>
   );

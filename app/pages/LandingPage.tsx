@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import { RefProps } from '../assets/TypeProps';
+import Link from 'next/link';
 
 const LandingPage: React.FC<RefProps> = ({ refs }) => {
   return (
@@ -53,7 +54,9 @@ const LandingPage: React.FC<RefProps> = ({ refs }) => {
             refs.current[6] = el as HTMLDivElement;
           }}
         >
-          <Button btnName="Let's Get Started!" />
+          <Link href='#about'>
+            <Button btnName="Let's Get Started!" />
+          </Link>
         </div>
       </div>
     </div>
