@@ -1,6 +1,8 @@
+'use client';
 import React from 'react';
 import Button from './Button';
 import Link from 'next/link';
+import { RefProps } from '../assets/TypeProps';
 
 const navTitles = [
   { key: 1, title: 'ABOUT', to: '#about' },
@@ -9,10 +11,16 @@ const navTitles = [
   { key: 4, title: 'CONTACT', to: '#contact' },
 ];
 
-const NavBar = () => {
+const NavBar: React.FC<RefProps> = ({ refs }) => {
   return (
     <>
-      <div className='flex justify-end items-center gap-[5rem] font-mono -mt-8'>
+      <div
+        className='flex justify-end items-center gap-[5rem] font-mono -mt-8'
+        // ref={nav}
+        ref={(el) => {
+          refs.current[1] = el as HTMLDivElement;
+        }}
+      >
         <ul className='flex flex-row justify-end'>
           {navTitles.map((nav) => (
             <li className='pl-[3rem]' key={nav.key}>

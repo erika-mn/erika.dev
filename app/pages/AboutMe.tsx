@@ -1,11 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
+import { RefProps } from '../assets/TypeProps';
 
-const AboutMe = () => {
+const AboutMe: React.FC<RefProps> = ({ refs }) => {
   return (
     <div
       className='flex flex-row justify-center h-[74.5vh] font-mono text-primary pt-[3rem]'
       id='about'
+      ref={(el) => {
+        refs.current[7] = el as HTMLDivElement;
+      }}
     >
       <div>
         <h1>ABOUT ME</h1>

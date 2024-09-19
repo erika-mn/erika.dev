@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const GetInTouch = () => {
   return (
     <div
-      className='mt-[45rem] flex flex-col items-center justify-center text-center font-mono min-h-[35vh]'
+      className='mt-[45rem] flex flex-col items-center text-center self-center font-mono min-h-[35vh] z-10'
       id='contact'
     >
       <h1 className='text-5xl font-bold'>

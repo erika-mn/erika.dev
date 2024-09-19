@@ -23,7 +23,7 @@ const WorkingExp = () => {
 
   return (
     <div
-      className='flex justify-center min-h-[79vh] font-mono pt-[12rem] text-primary'
+      className='self-center min-h-[79vh] font-mono pt-[12rem] text-primary z-10  flex'
       id='experience'
     >
       <div>
@@ -39,40 +39,40 @@ const WorkingExp = () => {
         <div className='mt-[5rem] flex'>
           <div className='w-[15rem]'>
             <div
-              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem] rounded-md ${
                 isCompany === 'Wizlex'
                   ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
-                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)] ease-in duration-200'
               }`}
               onClick={() => setCompany('Wizlex')}
             >
               Wizlex
             </div>
             <div
-              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem] rounded-md ${
                 isCompany === 'BCS'
                   ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
-                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)] ease-in duration-200'
               }`}
               onClick={() => setCompany('BCS')}
             >
               BCS Technology
             </div>
             <div
-              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem] rounded-md ${
                 isCompany === 'Hooli'
                   ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
-                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)] ease-in duration-200'
               }`}
               onClick={() => setCompany('Hooli')}
             >
               Hooli Software
             </div>
             <div
-              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem]   rounded-md ${
+              className={`text-center py-2 cursor-pointer gap-2 text-primary w-[10rem] rounded-md ${
                 isCompany === 'ICPEP'
                   ? 'text-tertiary shadow-[inset_0_0_0_1px_theme(colors.tertiary)]'
-                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)]'
+                  : 'text-primary hover:shadow-[inset_0_0_0_1px_theme(colors.primary)] ease-in duration-200'
               }`}
               onClick={() => setCompany('ICPEP')}
             >
